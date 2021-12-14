@@ -1,0 +1,67 @@
+﻿* {
+    margin: 0vh;
+    padding: 0vh;
+}
+
+#header {
+    background-image: url("img/Banner1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+
+.header-text {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 200px;
+}
+
+    .header-text h1 {
+        font-size: 70px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .header-text p {
+        font-size: 20px;
+        font-style: italic;
+        color: #ffffff;
+    }
+
+.header-botton {
+    margin: 300px auto 0;
+}
+
+    .header-botton a {
+        width: 150px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 12px 0;
+        color: #f5f5f5;
+        border: .5px solid #f5f5f5;
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+    }
+
+        .header-botton a span {
+            width: 0;
+            height: 100%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            background-color: #f5f5f5;
+            z-index: -1;
+            transition: 0.5s;
+        }
+
+        .header-botton a:hover span {
+            width: 100%;
+        }
+
+        .header-botton a:hover {
+            color: #ff0000;
+        }
